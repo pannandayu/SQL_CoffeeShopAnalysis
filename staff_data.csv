@@ -1,0 +1,56 @@
+staff_id,first_name,last_name,position,start_date,location
+1,Aulia,Narimanda,CFO,8/3/2001,Headquarters
+2,Surya,Narimanda,CEO,8/3/2001,Headquarters
+3,Andi,Pambudi,Roaster,10/24/2007,Warehouse
+4,Vito,Syahputra,Roaster,7/3/2003,Warehouse
+5,Sakti,Abidah,Roaster,4/2/2008,Warehouse
+6,Arrivalda,Adrian,Store Manager,7/24/2016,3
+7,Ilham,Muhammad,Coffee Wrangler,10/18/2003,3
+8,Syahid,Delmeizar,Coffee Wrangler,2/9/2005,3
+9,Fandy,Jaya,Coffee Wrangler,9/9/2013,3
+10,Devito,Hizrian,Coffee Wrangler,12/10/2016,3
+11,Yusuf,Pratama,Store Manager,6/17/2009,4
+12,Adam,Priyohadi,Coffee Wrangler,3/25/2006,4
+13,Gilang,Ahmadi,Coffee Wrangler,12/11/2009,4
+14,Dhanu,Octarina,Coffee Wrangler,6/5/2010,4
+15,Andika,Hartina,Coffee Wrangler,5/9/2014,4
+16,Tubagus,Mayasopha,Store Manager,3/30/2006,5
+17,Andriawan,Krisnanto,Coffee Wrangler,12/5/2014,5
+18,Agil,Sidharta,Coffee Wrangler,11/13/2005,5
+19,Haikal,Noordien,Coffee Wrangler,3/12/2014,5
+20,Sebastian,Tambunan,Coffee Wrangler,2/13/2002,5
+21,Ryan,Alvinsyah,Store Manager,9/29/2018,6
+22,Andi,Darmawan,Coffee Wrangler,3/3/2014,6
+23,Alditio,Fauzi,Coffee Wrangler,11/22/2018,6
+24,Humam,Pratiko,Coffee Wrangler,1/27/2007,6
+25,Irlan,Kusuma,Coffee Wrangler,3/14/2017,6
+26,Dwiki,Azhar,Store Manager,11/11/2013,7
+27,Vinny,Oktaviaman,Coffee Wrangler,7/31/2003,7
+28,Denya,Octarina,Coffee Wrangler,5/17/2014,7
+29,Diajeng,Saraswati,Coffee Wrangler,7/26/2016,7
+30,Ulfah,Farzilah,Coffee Wrangler,9/17/2005,7
+31,Feradhia,Riyadie,Store Manager,7/2/2009,8
+32,Kamilia,Astuti,Coffee Wrangler,2/2/2005,8
+33,Almira,Susanti,Coffee Wrangler,2/18/2015,8
+34,Lisna,Gibrandi,Coffee Wrangler,2/16/2016,8
+35,Alita,Verev,Coffee Wrangler,1/7/2014,8
+36,Sarah,Umaeroh,Store Manager,4/19/2004,9
+37,Wan,Jesica,Coffee Wrangler,2/11/2015,9
+38,Agil,Larashati,Coffee Wrangler,10/15/2008,9
+39,Lusiana,Fika,Coffee Wrangler,6/9/2016,9
+40,Karlina,Andriana,Coffee Wrangler,10/25/2001,9
+41,Fauzia,Indriany,Store Manager,10/13/2001,10
+42,Alvina,Shabrina,Coffee Wrangler,1/30/2011,10
+43,Cindy,Ashim,Coffee Wrangler,1/31/2015,10
+44,Puspa,Gayatri,Coffee Wrangler,5/17/2005,10
+45,Cynthia,Paramita,Coffee Wrangler,3/21/2019,10
+46,Marini,Subiarsono,Store Manager,6/15/2008,Fault Locating
+47,Natasha,Andika,Coffee Wrangler,1/31/2003,Fault Locating
+48,Aprilita,Hartanto,Coffee Wrangler,2/21/2003,Fault Locating
+49,Asri,Tabriiz,Coffee Wrangler,5/4/2013,Fault Locating
+50,Silviana,Kurniansyah,Coffee Wrangler,10/1/2015,Fault Locating
+51,Defara,Hanako,Store Manager,8/3/2001,Fault Locating
+52,Hasna,Septian,Coffee Wrangler,8/17/2003,Fault Locating
+53,Citra,Diva,Coffee Wrangler,11/11/2007,Fault Locating
+54,Agil,Aisi,Coffee Wrangler,9/13/2005,Fault Locating
+55,Azrul,Jordy,Coffee Wrangler,11/17/2015,Fault Locating

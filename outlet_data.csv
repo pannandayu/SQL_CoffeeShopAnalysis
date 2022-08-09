@@ -1,0 +1,10 @@
+sales_outlet_id,sales_outlet_type,store_square_feet,store_address,store_city,store_state_province,store_telephone,store_postal_code,store_longitude,store_latitude,manager
+2,warehouse,3400,"Blok G, Jl. Jambore Blok V1, Cibubur, Kec. Ciracas",Jakarta Timur,DKI Jakarta,888-894-235,13720,-73.795168,40.705226,
+3,retail,1300,"5, Jl. Hayam Wuruk, Mangga Besar, Kec. Taman Sari",Jakarta Barat,DKI Jakarta,889-362-271,11180,-73.924008,40.761196,6.0
+4,retail,1300,"Jalan Danau Sunter Raya Selatan Blok I, Sunter Agung, Kec. Tj. Priok",Jakarta Utara,DKI Jakarta,888-274-337,14350,-73.983984,40.677645,11.0
+5,retail,900,"Jl. Jenderal Sudirman, Senayan, Kec. Kby. Baru",Jakarta Selatan,DKI Jakarta,889-238-211,12190,-74.01013,40.71329,16.0
+6,retail,1000,"Jl. Pangeran Antasari, Kec. Mampang Prpt.",Jakarta Selatan,DKI Jakarta,888-247-284,12150,-73.992687,40.713852,21.0
+7,retail,1200,"Jl. RS. Fatmawati Raya, Pd. Labu, Kec. Cilandak",Jakarta Selatan,DKI Jakarta,889-882-273,12450,-73.96,40.77,26.0
+8,retail,1500,"3, Jalan Kemang RayaKec. Mampang Prpt.",Jakarta Selatan,DKI Jakarta,889-247-209,12730,-73.990338,40.761887,31.0
+9,retail,1700,"Jl. Tebah III, Gunung, Kec. Kby. Baru",Jakarta Selatan,DKI Jakarta,889-273-793,12120,-74.000502,40.74276,36.0
+10,retail,1600,Jl. Moh. Kahfi 1 Blok DKec. Jagakarsa,Jakarta Selatan,DKI Jakarta,888-273-219,12630,-74.002722,40.734367,41.0
