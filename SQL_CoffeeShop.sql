@@ -127,3 +127,62 @@ from
 join outlet_data od
 on n.sales_outlet_id = od.sales_outlet_id
 order by n.total_sales desc; 
+
+-- Merge All
+select *
+from transaction_data td
+join customer_data cd on td.customer_id = cd.customer_id 
+join outlet_data od on td.sales_outlet_id = od.sales_outlet_id 
+join product_data pd on td.product_id  = pd.product_id 
+join staff_data sd  on td.staff_id = sd.staff_id;
+
+-- Transaction Count Each Transaction ID Using Over
+select distinct transaction_id, max(row_num) over(partition by transaction_id) as transaction_count
+from
+(
+	select row_number() over(partition by transaction_id order by transaction_id) as row_num,
+		   transaction_id,
+		   transaction_date 
+	from transaction_data td
+) as n
+order by 1
+
+-- Date Difference Each Transaction Date Using Lead Indicator
+with cte
+as
+(
+	select transaction_date, lead(transaction_date, 1) 
+		   over(order by transaction_date), 
+		   lead(transaction_date, 1) over(order by transaction_date) - transaction_date as date_diff
+	from new_date
+	order by transaction_date
+)
+select transaction_date,lead, concat(coalesce(date_diff,0),' ','day') as date_diff
+from cte;
+
+-- Average Interval and Transaction Count by Each Transaction Date Using Lead Indicator
+with cte
+as
+(
+	select transaction_id, transaction_time, transaction_date,
+		   lead(transaction_time,1) over(order by transaction_time),
+		   lead(transaction_time,1) over(order by transaction_time) - transaction_time as interval
+	from transaction_data td
+	order by 2
+) 
+select distinct transaction_date, extract(second from avg(interval) over (partition by transaction_date)) as average_interval, 
+				count(interval) over(partition by transaction_date) as transaction_count
+from cte
+order by 1;
+
+-- Total Sales Grouped by Products Using Over
+select p.product_id, pd.product_group, p.total
+from
+(
+	select distinct product_id, sum(quantity) over(partition by product_id) as total
+	from transaction_data td 
+	order by product_id
+) as p
+join product_data pd 
+on p.product_id = pd.product_id
+order by 3 desc;
